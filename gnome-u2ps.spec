@@ -1,5 +1,5 @@
 %define version 0.0.4
-%define release 3mdk
+%define release %mkrel 4
 
 Name:		gnome-u2ps
 Summary:	UTF-8 text to a2ps style Postscript converter
@@ -9,9 +9,7 @@ License:	GPL
 URL:		http://bonobo.gnome.gr.jp/~nakai/u2ps/
 Group:		Text tools
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-
-Source:		http://bonobo.gnome.gr.jp/~nakai/u2ps/gnome-u2ps-%{version}.tar.bz2
-
+Source:		http://bonobo.gnome.gr.jp/~nakai/u2ps/%{name}-%{version}.tar.bz2
 BuildRequires:	fribidi-devel >= 0.10.4
 BuildRequires:	libgnomeprint2-2-devel >= 2.5.4
 BuildRequires:	libgnome2-devel
