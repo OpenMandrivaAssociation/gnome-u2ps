@@ -1,5 +1,5 @@
 %define version 0.0.4
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name:		gnome-u2ps
 Summary:	UTF-8 text to a2ps style Postscript converter
