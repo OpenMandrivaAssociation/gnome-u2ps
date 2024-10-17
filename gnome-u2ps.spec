@@ -6,7 +6,7 @@ Summary:	UTF-8 text to a2ps style Postscript converter
 Version:	%{version}
 Release:	%{release}
 License:	GPL
-URL:		http://bonobo.gnome.gr.jp/~nakai/u2ps/
+URL:		https://bonobo.gnome.gr.jp/~nakai/u2ps/
 Group:		Text tools
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source:		http://bonobo.gnome.gr.jp/~nakai/u2ps/%{name}-%{version}.tar.bz2
